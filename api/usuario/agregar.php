@@ -22,7 +22,8 @@
   $usuario->nombreCompleto = $data->nombreCompleto;
   $usuario->apellidoPaterno = $data->apellidoPaterno;
   $usuario->apellidoMaterno = $data->apellidoMaterno;
-  $usuario->nombreUsuario = $data->nombreUsuario;
+  $usuario->telefonoCliente = $data->telefonoCliente;
+  $usuario->nombreUsuario = $data->nombreUsuario;  
   $usuario->contrasena = $data->contrasena;
   $usuario->tipoUsuario  = $data->tipoUsuario;
 
@@ -31,8 +32,7 @@
 
   // Get row count
   $num = $result->rowCount();
-
-  // Verificar Respuesta
+  
   if($num > 0){
     while($row = $result->fetch(PDO::FETCH_ASSOC)){
       extract($row);

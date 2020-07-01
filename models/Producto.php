@@ -75,40 +75,26 @@
 
         // BUSCAR PRODUCTO
         public function buscarProducto(){
-            $queryCantidad = 'SELECT COUNT(*) as cantidadProductos
-            FROM producto p INNER JOIN tipoProducto tp ON p.idTipoProducto = tp.idTipoProducto AND tp.nombreTipoProducto LIKE :tipo
-            INNER JOIN tienda t ON p.idTienda = t.idTienda WHERE p.nombreProducto LIKE :texto OR tp.nombreTipoProducto LIKE :texto;';
-            $stmtCantidad = $this->conn->prepare($queryCantidad);
-
+            $query = 'CALL buscarProducto(:ciudad,:tipo,:texto,:id,:inicio,:cantidad)';
+            $stmt = $this->conn->prepare($query);
+            
+            $this->ciudad = htmlspecialchars(strip_tags($this->ciudad));
             $this->tipo = htmlspecialchars(strip_tags($this->tipo));
             $this->texto = htmlspecialchars(strip_tags($this->texto));
-            $stmtCantidad->bindParam(':tipo', $this->tipo);
-            $stmtCantidad->bindParam(':texto', $this->texto);
+            $this->id = htmlspecialchars(strip_tags($this->id));
+            $this->inicio = htmlspecialchars(strip_tags($this->inicio));
+            $this->cantidad = htmlspecialchars(strip_tags($this->cantidad));
+            
+            $stmt->bindParam(':ciudad', $this->ciudad);
+            $stmt->bindParam(':tipo', $this->tipo);
+            $stmt->bindParam(':texto', $this->texto);
+            $stmt->bindParam(':id', $this->id);
+            $stmt->bindParam(':inicio',$this->inicio);
+            $stmt->bindParam(':cantidad',$this->cantidad);
 
-            $stmtCantidad->execute();
-            if($stmtCantidad){
-                $queryBusqueda = 'CALL buscarProducto(:tipo,:texto,:inicio,:cantidad)';
+            $stmt->execute();
 
-                $stmtBusqueda = $this->conn->prepare($queryBusqueda);
-                
-                $this->tipo = htmlspecialchars(strip_tags($this->tipo));
-                $this->texto = htmlspecialchars(strip_tags($this->texto));
-                $this->inicio = htmlspecialchars(strip_tags($this->inicio));
-                $this->cantidad = htmlspecialchars(strip_tags($this->cantidad));
-
-                $stmtBusqueda->bindParam(':tipo', $this->tipo);
-                $stmtBusqueda->bindParam(':texto', $this->texto);                
-                $stmtBusqueda->bindParam(':inicio',$this->inicio);
-                $stmtBusqueda->bindParam(':cantidad',$this->cantidad);
-
-                $stmtBusqueda->execute();
-
-                $respuesta = array();
-                array_push($respuesta,$stmtCantidad);
-                array_push($respuesta,$stmtBusqueda);
-                
-                return $respuesta;
-            } else { return null; }
+            return $stmt;
         }
 
         // LISTAR PRODUCTO TIENDA

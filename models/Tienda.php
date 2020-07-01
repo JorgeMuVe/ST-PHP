@@ -15,7 +15,7 @@
         // Agregar Tienda
         public function agregarTienda() {
             $query='CALL agregarTienda(:idNegocio,:idTipoNegocio,:numeroTienda,:nombreTienda,
-            :ruc,:logo,:correoTienda,:telefonoTienda,:direccionTienda,:descripcionTienda,:lat,:lng);';
+            :ruc,:logo,:correoTienda,:telefonoTienda,:direccionTienda,:descripcionTienda,:lat,:lng,:contrasena);';
             $stmt = $this->conn->prepare($query);
             
             $this->idNegocio = htmlspecialchars(strip_tags($this->idNegocio));
@@ -30,6 +30,7 @@
             $this->descripcionTienda = htmlspecialchars(strip_tags($this->descripcionTienda));
             $this->lat = htmlspecialchars(strip_tags($this->lat));
             $this->lng = htmlspecialchars(strip_tags($this->lng));
+            $this->contrasena = htmlspecialchars(strip_tags($this->contrasena));
 
             $stmt->bindParam(':idNegocio', $this->idNegocio);
             $stmt->bindParam(':idTipoNegocio', $this->idTipoNegocio);
@@ -43,6 +44,7 @@
             $stmt->bindParam(':descripcionTienda', $this->descripcionTienda);
             $stmt->bindParam(':lat', $this->lat);
             $stmt->bindParam(':lng', $this->lng);
+            $stmt->bindParam(':contrasena', $this->contrasena);
 
             $stmt->execute();
             return $stmt;

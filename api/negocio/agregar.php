@@ -24,9 +24,17 @@
   $negocio->correoNegocio = $data->correoNegocio;
   $negocio->telefonoNegocio = $data->telefonoNegocio;
   $negocio->descripcionNegocio = $data->descripcionNegocio;
+  $negocio->contrasena = $data->contrasena;
 
   // Buscar Usuario
-  $result = $negocio->agregarTienda();
+  $result = $negocio->agregarNegocio();
 
-  echo json_encode($result);
+  //Get row count
+  $num = $result->rowCount();
+  if($num > 0){
+    while($row = $result->fetch(PDO::FETCH_ASSOC)){
+      extract($row);
+      echo json_encode($row);
+    }
+  } else { echo json_encode(array('error'=>'No se Agrego el Negocio.')); }
 ?>

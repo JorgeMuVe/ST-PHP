@@ -10,6 +10,7 @@
     $image = imagecreatefromstring($image);
   
     if($image){
+      unlink($path);
       imagejpeg($image,$path);
       imagedestroy($image);
       echo json_encode(array('ruta'=>'/img/clientes/'.$nombre));

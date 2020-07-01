@@ -18,29 +18,24 @@
   // Get raw data
   $data = json_decode(file_get_contents("php://input"));
 
-  $producto->tipo = "%".(($data->tipo=="TODO")?"%":$data->tipo)."%";
+  $producto->ciudad = $data->ciudad;
+  $producto->tipo = $data->tipo;
   $producto->texto = "%".(($data->texto)?$data->texto:"%")."%";
+  $producto->id = ""+$data->id;
   $producto->inicio = ""+$data->inicio;
   $producto->cantidad = ""+$data->cantidad;
 
-  // Buscar Usuario
+  // Buscar Producto
   $result = $producto->buscarProducto();
-
-  //Get row count
-  $numCantidad = $result[0]->rowCount();
+  $numCantidad = $result->rowCount();
   if($numCantidad > 0){
-    $cantidadProductos = $result[0]->fetch(PDO::FETCH_ASSOC);
-    $numBusqueda = $result[1]->rowCount();
-    if($numBusqueda > 0){
+    try{
       $listaProductos = array();
-      while($row = $result[1]->fetch(PDO::FETCH_ASSOC)){
-      extract($row);
+      while($row = $result->fetch(PDO::FETCH_ASSOC)){
+        extract($row);
         array_push($listaProductos,$row);
       }
-      echo json_encode( array(
-        'cantidadProductos'=>$cantidadProductos["cantidadProductos"],
-        'listaProductos'=>$listaProductos
-      ));
-    } else { echo json_encode(array('error'=>'Sin registro de Ventas!.')); }
-  } else { echo json_encode(array('error'=>'Sin registro de ventas!.')); }
+      echo json_encode($listaProductos);
+    } catch (PDOException $e) { echo json_encode(array('error'=>$e->getMessage())); }
+  } else { echo json_encode(array('error'=>'No se encontro productos!.')); }
 ?>
