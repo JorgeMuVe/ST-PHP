@@ -35,6 +35,5 @@
     }
     echo json_encode($direcciones_arr);
   }
-  else { echo json_encode(array('error'=>'Sin respuesta')); }
-  
+  else { echo json_encode(array('error'=>'Sin respuesta')); }  
 ?>

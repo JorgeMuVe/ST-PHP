@@ -1,0 +1,96 @@
+[18-Aug-2020 15:20:07 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:07 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:07 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:07 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:07 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:07 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:07 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:07 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:08 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:08 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:08 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[18-Aug-2020 15:20:08 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pe.idTienda' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/detalleCliente.php(26): Pedido->listarDetalleCliente()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[30-Aug-2020 20:35:53 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.idPedido' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/tienda.php(26): Pedido->listarPedidosTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[30-Aug-2020 20:35:53 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.idPedido' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/tienda.php(26): Pedido->listarPedidosTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[30-Aug-2020 20:46:39 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.idPedido' in 'where clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/tienda.php(26): Pedido->listarPedidosTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158
+[30-Aug-2020 20:46:39 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.idPedido' in 'where clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php:158
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php(158): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/pedido/lista/tienda.php(26): Pedido->listarPedidosTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Pedido.php on line 158

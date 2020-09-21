@@ -19,23 +19,20 @@
   $data = json_decode(file_get_contents("php://input"));
   
   $tienda->idTienda = ""+$data->idTienda;
-  $tienda->idNegocio = ""+$data->idNegocio;
-  $tienda->idTipoNegocio = ""+$data->idTipoNegocio;
-  $tienda->numeroTienda = $data->numeroTienda;
-  $tienda->nombreTienda = $data->nombreTienda;
-  $tienda->ruc = $data->ruc;
-  $tienda->logo = $data->logo;
-  $tienda->correoTienda = $data->correoTienda;
-  $tienda->telefonoTienda = $data->telefonoTienda;
-  $tienda->direccionTienda = $data->direccionTienda;
   $tienda->descripcionTienda = $data->descripcionTienda;
+  $tienda->telefonoTienda = $data->telefonoTienda;
+  $tienda->paginaWeb = $data->paginaWeb;
+  $tienda->enlaceFacebook = $data->enlaceFacebook;
+  $tienda->enlaceInstagram = $data->enlaceInstagram;
+  $tienda->enlaceTwitter = $data->enlaceTwitter;
+  $tienda->direccionTienda = $data->direccionTienda;
   $tienda->lat = $data->lat;
   $tienda->lng = $data->lng;
-
+   
   // EDITAR TIENDA
   $result = $tienda->editarTienda();
 
   if($result){
-    echo json_encode($result);
+    echo json_encode($tienda);
   }else {echo json_encode(array('error'=>'Sin respuesta')); }
 ?>

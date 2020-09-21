@@ -21,7 +21,13 @@
   $tienda->idTienda = ""+$data->idTienda;
 
   // Buscar Usuario
-  $result = $producto->eliminarTienda();
-
-  echo json_encode($result);
+  $result = $tienda->eliminarTienda();
+  
+  $num = $result->rowCount();
+  if($num > 0){
+    while($row = $result->fetch(PDO::FETCH_ASSOC)){
+      extract($row);
+      echo json_encode($row);
+    }
+  } else { echo json_encode(array('error'=>'Sin respuesta de DB')); }
 ?>

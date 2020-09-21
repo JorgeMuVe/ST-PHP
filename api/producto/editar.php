@@ -19,6 +19,11 @@
   $data = json_decode(file_get_contents("php://input"));
 
   $producto->idTipoProducto = $data->idTipoProducto;
+  $producto->nombreProducto = $data->nombreProducto;
+  $producto->imagenProducto = $data->imagenProducto;
+  $producto->idProducto = $data->idProducto;
+
+  /*$producto->idTipoProducto = $data->idTipoProducto;
   $producto->tipoUnidad = $data->tipoUnidad;
   $producto->nombreProducto = $data->nombreProducto;
   $producto->detalleProducto = $data->detalleProducto;
@@ -27,7 +32,7 @@
   $producto->descuentoUnidad = $data->descuentoUnidad;
   $producto->imagenProducto = $data->imagenProducto;
   $producto->idProducto = $data->idProducto;
-
+*/
   // Buscar Usuario
   $result = $producto->editarProducto();
 

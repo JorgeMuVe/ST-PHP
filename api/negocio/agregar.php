@@ -17,13 +17,11 @@
 
   // Get raw data
   $data = json_decode(file_get_contents("php://input"));
-  
+
+  $negocio->idTipoNegocio = ""+$data->idTipoNegocio;  
   $negocio->nombreNegocio = $data->nombreNegocio;
   $negocio->ruc = $data->ruc;
-  $negocio->logo = $data->logo;
   $negocio->correoNegocio = $data->correoNegocio;
-  $negocio->telefonoNegocio = $data->telefonoNegocio;
-  $negocio->descripcionNegocio = $data->descripcionNegocio;
   $negocio->contrasena = $data->contrasena;
 
   // Buscar Usuario

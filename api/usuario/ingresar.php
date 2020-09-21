@@ -20,7 +20,6 @@
 
   $usuario->nombreUsuario = $data->nombreUsuario;
   $usuario->contrasena = $data->contrasena;
-  $usuario->tipoUsuario  = $data->tipoUsuario;
 
   // Ingresar Sistema
   $result = $usuario->ingresarSistema();

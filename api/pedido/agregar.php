@@ -21,6 +21,7 @@
   $pedido->tipoUsuario = $data->tipoUsuario;
   $pedido->codigoUsuario = ""+$data->codigoUsuario;
   $pedido->idDireccion = ""+$data->idDireccion;
+  $pedido->idCobertura = ""+$data->idCobertura;
   $pedido->telefonoReferencia = $data->telefonoReferencia;
   $pedido->correoReferencia = $data->correoReferencia;
   $pedido->totalProductos = ""+$data->totalProductos;

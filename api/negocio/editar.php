@@ -12,39 +12,27 @@
   $database = new Database();
   $db = $database->connect();
 
-  // Instantiate Tienda
+  // Instantiate NEGOCIO
   $negocio = new Negocio($db);
 
   // Get raw data
   $data = json_decode(file_get_contents("php://input"));
   
   $negocio->idNegocio = ""+$data->idNegocio;
-  $negocio->idTipoNegocio = ""+$data->idTipoNegocio;
-  $negocio->nombreNegocio = $data->nombreNegocio;
-  $negocio->ruc = $data->ruc;
-  $negocio->logo = $data->logo;
-  $negocio->correoNegocio = $data->correoNegocio;
-  $negocio->telefonoNegocio = $data->telefonoNegocio;
   $negocio->descripcionNegocio = $data->descripcionNegocio;
+  $negocio->telefonoNegocio = $data->telefonoNegocio;
+  $negocio->paginaWeb = $data->paginaWeb;
+  $negocio->enlaceFacebook = $data->enlaceFacebook;
+  $negocio->enlaceInstagram = $data->enlaceInstagram;
+  $negocio->enlaceTwitter = $data->enlaceTwitter;
+  $negocio->direccionNegocio = $data->direccionNegocio;
+  $negocio->lat = $data->lat;
+  $negocio->lng = $data->lng;
 
-  // EDITAR TIENDA
+  // EDITAR NEGOCIO
   $result = $negocio->editarNegocio();
-
-    // Get row count
-  $num = $result->rowCount();
-  if($num > 0){
-    $tipos_arr = array();
-    while($row = $result->fetch(PDO::FETCH_ASSOC)){
-        extract($row);
-        array_push($tipos_arr,$row);
-    }
-    echo json_encode($tipos_arr);
-  }
-  else { echo json_encode(array('error'=>'Sin respuesta')); }
-  /*
-
+  
   if($result){
     echo json_encode($result);
   }else {echo json_encode(array('error'=>'Sin respuesta')); }
-  */
 ?>

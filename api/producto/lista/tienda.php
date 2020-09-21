@@ -18,9 +18,11 @@
   // Get raw data
   $data = json_decode(file_get_contents("php://input"));
 
-  $producto->codigoUsuario = ""+$data->codigoUsuario;
+  $producto->idTienda = ""+$data->idTienda;
   $producto->inicio = ""+$data->inicio;
   $producto->cantidad = ""+$data->cantidad;
+
+  //echo json_encode($producto);
 
   // Buscar Usuario
   $result = $producto->listarProductosTienda();

@@ -20,6 +20,7 @@
   
   $venta->idTienda = ""+$data->idTienda;
   $venta->idPedido = ""+$data->idPedido;
+  $venta->estadoPago = $data->estadoPago;
 
   // Agregar Usuario
   $result = $venta->agregarVenta();

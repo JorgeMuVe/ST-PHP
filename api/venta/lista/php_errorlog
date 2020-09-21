@@ -1,0 +1,528 @@
+[30-Jul-2020 12:31:21 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:31:21 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:31:57 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:31:57 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:32:50 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:32:50 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:33:11 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:33:11 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:33:13 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 12:33:13 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:21:33 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:21:33 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:21:39 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:21:40 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:21:50 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:21:50 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:22:06 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:22:06 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:22:24 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:22:24 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:22:35 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:22:35 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:27:25 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 19:27:25 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 23:30:57 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 23:30:57 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 23:43:22 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Jul-2020 23:43:22 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:04:42 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:04:42 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:04:57 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:04:57 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:05:41 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:05:41 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:10:53 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:10:53 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:14:04 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:14:04 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:14:10 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:14:11 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:34:17 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:34:17 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:35:27 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:35:28 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:56:12 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 00:56:12 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:00:05 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:00:05 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:02:35 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:02:35 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:03:31 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:03:31 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:05:09 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:05:09 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:05:13 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:07:35 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:07:35 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:07:49 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:07:49 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:09:48 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:09:48 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:12:25 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:12:25 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:12:28 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:14:36 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:14:36 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:26:45 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:26:45 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:27:18 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:27:18 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:28:30 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:28:30 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:31:19 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:31:19 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:31:30 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:31:31 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:32:55 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 01:32:55 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 09:31:49 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 09:31:49 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 09:32:19 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 09:32:20 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 09:36:11 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[31-Jul-2020 09:36:11 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr.descuentoUnidad' in 'field list' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:45
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(45): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 45
+[30-Aug-2020 20:35:53 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.idPedido' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:47
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(47): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 47
+[30-Aug-2020 20:35:53 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.idPedido' in 'on clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:47
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(47): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 47
+[30-Aug-2020 20:46:39 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.idPedido' in 'where clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:47
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(47): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 47
+[30-Aug-2020 20:46:39 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.idPedido' in 'where clause' in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php:47
+Stack trace:
+#0 /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php(47): PDOStatement->execute()
+#1 /home/customer/www/reactiva-peru.com/public_html/data/api/venta/lista/tienda.php(27): Venta->listaTienda()
+#2 {main}
+  thrown in /home/customer/www/reactiva-peru.com/public_html/data/models/Venta.php on line 47

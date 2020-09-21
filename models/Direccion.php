@@ -56,6 +56,19 @@
             else { return null; }
         }
 
+        // ELIMINAR DIRECCIÓN
+        public function eliminarDireccion(){
+            $query = 'DELETE FROM direccion WHERE idDireccion=:idDireccion';
+            $stmt = $this->conn->prepare($query);
+
+            $this->idDireccion = htmlspecialchars(strip_tags($this->idDireccion));
+            $stmt->bindParam(':idDireccion', $this->idDireccion);
+
+            $stmt->execute();
+            if($stmt){ return $stmt; }
+            else { return null; }
+        }
+
         // LISTA DIRECCIONES
         public function listarDirecciones(){
             $query = 'SELECT * FROM direccion WHERE idCliente = :codigoUsuario';

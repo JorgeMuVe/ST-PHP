@@ -17,8 +17,9 @@
 
   // Get raw data
   $data = json_decode(file_get_contents("php://input"));
-
-  $producto->ciudad = $data->ciudad;
+  $producto->idDepartamento = ""+$data->idDepartamento;
+  $producto->idProvincia = ""+$data->idProvincia;
+  $producto->idDistrito = ""+$data->idDistrito;
   $producto->tipo = $data->tipo;
   $producto->texto = "%".(($data->texto)?$data->texto:"%")."%";
   $producto->id = ""+$data->id;

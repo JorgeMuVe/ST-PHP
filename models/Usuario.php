@@ -38,27 +38,29 @@
 
         // Agregar Usuario
         public function cambiarContrasena() {
-            $query='CALL cambiarContrasena(:idUsuario,:contrasena);';
+            $query='CALL cambiarContrasena(:tipoUsuario,:correoCuenta,:contrasenaActual,:contrasenaNueva);';
             $stmt = $this->conn->prepare($query);
-            $this->idUsuario = htmlspecialchars(strip_tags($this->idUsuario));
-            $this->contrasena = htmlspecialchars(strip_tags($this->contrasena));
+            $this->tipoUsuario = htmlspecialchars(strip_tags($this->tipoUsuario));
+            $this->correoCuenta = htmlspecialchars(strip_tags($this->correoCuenta));
+            $this->contrasenaActual = htmlspecialchars(strip_tags($this->contrasenaActual));
+            $this->contrasenaNueva = htmlspecialchars(strip_tags($this->contrasenaNueva));
             
-            $stmt->bindParam(':idUsuario', $this->idUsuario);
-            $stmt->bindParam(':contrasena', $this->contrasena);
+            $stmt->bindParam(':tipoUsuario', $this->tipoUsuario);
+            $stmt->bindParam(':correoCuenta', $this->correoCuenta);
+            $stmt->bindParam(':contrasenaActual', $this->contrasenaActual);
+            $stmt->bindParam(':contrasenaNueva', $this->contrasenaNueva);
             $stmt->execute();
             return $stmt;
         }
 
         // Ingresar Verificar Usuario
         public function ingresarSistema(){
-            $query = 'CALL ingresarSistema(:nombreUsuario,:contrasena,:tipoUsuario);';
+            $query = 'CALL ingresarSistema(:nombreUsuario,:contrasena);';
             $stmt = $this->conn->prepare($query);
             $this->nombreUsuario = htmlspecialchars(strip_tags($this->nombreUsuario));
             $this->contrasena = htmlspecialchars(strip_tags($this->contrasena));
-            $this->tipoUsuario = htmlspecialchars(strip_tags($this->tipoUsuario));
             $stmt->bindParam(':nombreUsuario', $this->nombreUsuario);
             $stmt->bindParam(':contrasena', $this->contrasena);
-            $stmt->bindParam(':tipoUsuario', $this->tipoUsuario);
             $stmt->execute();
             return $stmt;
         }
@@ -86,6 +88,16 @@
         // Buscar un Usuario Tienda
         public function buscarUsuarioTienda(){
             $query = 'CALL buscarUsuarioTienda(:codigoUsuario);';
+            $stmt = $this->conn->prepare($query);
+            $this->codigoUsuario = htmlspecialchars(strip_tags($this->codigoUsuario));
+            $stmt->bindParam(':codigoUsuario', $this->codigoUsuario);
+            $stmt->execute();
+            return $stmt;
+        }
+
+        // Buscar un Usuario Courier
+        public function buscarUsuarioCourier(){
+            $query = 'CALL buscarUsuarioCourier(:codigoUsuario);';
             $stmt = $this->conn->prepare($query);
             $this->codigoUsuario = htmlspecialchars(strip_tags($this->codigoUsuario));
             $stmt->bindParam(':codigoUsuario', $this->codigoUsuario);

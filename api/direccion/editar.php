@@ -25,8 +25,10 @@
   $direccion->lng = $data->lng;
   $direccion->idDireccion = $data->idDireccion;
 
-  // Buscar Usuario
   $result = $direccion->editarDireccion();
-  
-  echo json_encode($result);
+
+  if($result){
+    echo json_encode(array('exito' => 'Direccion Editada'));
+  }
+  else { echo json_encode(array('error'=>'Sin respuesta')); }
 ?>

@@ -18,11 +18,17 @@
   // Get raw data
   $data = json_decode(file_get_contents("php://input"));
   
-  $usuario->idUsuario = $data->idUsuario;
-  $usuario->contrasena = $data->contrasena;
+  $usuario->tipoUsuario = $data->tipoUsuario;
+  $usuario->correoCuenta = $data->correoCuenta;
+  $usuario->contrasenaActual = $data->contrasenaActual;
+  $usuario->contrasenaNueva = $data->contrasenaNueva;
 
   // Agregar Usuario
   $result = $usuario->cambiarContrasena();
-
-  if($result){ echo json_encode($usuario); }
-  else { echo json_encode(array('error'=>'Error al Cambiar Contraseña')); }
+  $num = $result->rowCount();
+  if($num > 0){
+    while($row = $result->fetch(PDO::FETCH_ASSOC)){
+      extract($row);
+      echo json_encode($row);
+    }
+  } else { echo json_encode(array('error'=>'Error al Cambiar Contraseña')); }

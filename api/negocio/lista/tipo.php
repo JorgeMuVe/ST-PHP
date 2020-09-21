@@ -17,21 +17,32 @@
   $negocio = new Negocio($db);
 
   $data = json_decode(file_get_contents("php://input"));
-  
+
+  $negocio->idDepartamento = ""+$data->idDepartamento;
+  $negocio->idProvincia = ""+$data->idProvincia;
+  $negocio->idDistrito = ""+$data->idDistrito;
   $negocio->idTipoNegocio = $data->idTipoNegocio;
+  $negocio->inicio = ""+ $data->inicio;
+  $negocio->cantidad = ""+$data->cantidad;
 
   // Buscar Usuario
   $result = $negocio->listarNegociosPorTipo();
   
-  // Get row count
-  $num = $result->rowCount();
-  if($num > 0){
-    $tipos_arr = array();
-    while($row = $result->fetch(PDO::FETCH_ASSOC)){
-        extract($row);
-        array_push($tipos_arr,$row);
-    }
-    echo json_encode($tipos_arr);
-  }
-  else { echo json_encode(array('error'=>'Sin respuesta')); }
+  //Get row count
+  $numCantidad = $result[0]->rowCount();
+  if($numCantidad > 0){
+    $cantidadNegocios = $result[0]->fetch(PDO::FETCH_ASSOC);
+    $numBusqueda = $result[1]->rowCount();
+    if($numBusqueda > 0){
+      $listaNegocios = array();
+      while($row = $result[1]->fetch(PDO::FETCH_ASSOC)){
+      extract($row);
+        array_push($listaNegocios,$row);
+      }
+      echo json_encode( array(
+        'cantidadNegocios'=>$cantidadNegocios["cantidadNegocios"],
+        'listaNegocios'=>$listaNegocios
+      ));
+    } else { echo json_encode(array('error'=>'Sin registro Negocios!.')); }
+  } else { echo json_encode(array('error'=>'Sin registro Cantidad Negocios!.')); }
 ?>

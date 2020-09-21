@@ -60,6 +60,36 @@
                 return $respuesta;
 
             } else { return null; }
-        }        
+        }   
+
+         // DATOS CLIENTES
+        public function datosCliente(){
+            $query = 'SELECT * FROM cliente WHERE idCliente = :idCliente';
+            $stmt = $this->conn->prepare($query);
+
+            $this->idCliente = htmlspecialchars(strip_tags($this->idCliente));
+            $stmt->bindParam(':idCliente', $this->idCliente);
+
+            $stmt->execute();
+            if($stmt){ return $stmt; }
+            else { return null; }
+        }
+
+        // Cambiar Imagen Cliente
+        public function cambiarImagenCliente(){
+            $query = 'UPDATE cliente SET imagenCliente=:imagenCliente, marcador=:marcador WHERE idCliente=:idCliente;';
+            $stmt = $this->conn->prepare($query);
+            
+            $this->idCliente = htmlspecialchars(strip_tags($this->idCliente));
+            $this->imagenCliente = htmlspecialchars(strip_tags($this->imagenCliente));
+            $this->marcador = htmlspecialchars(strip_tags($this->marcador));
+            
+            $stmt->bindParam(':idCliente', $this->idCliente);
+            $stmt->bindParam(':imagenCliente', $this->imagenCliente);
+            $stmt->bindParam(':marcador', $this->marcador);
+            
+            $stmt->execute();
+            return $stmt;
+        }
     }
 ?>

@@ -11,29 +11,19 @@
 
         // AGREGAR PRODUCTO
         public function agregarProducto(){
-            $query = 'INSERT INTO producto (idTienda, idTipoProducto, tipoUnidad, nombreProducto, 
-            detalleProducto, precioPorUnidad, unidadCantidad, descuentoUnidad, imagenProducto)
-            VALUES(:idTienda,:idTipoProducto,:tipoUnidad,:nombreProducto,:detalleProducto,:precioPorUnidad,:unidadCantidad,:descuentoUnidad,:imagenProducto);';
+            $query = 'INSERT INTO 
+            producto (idNegocio,idTipoProducto,nombreProducto,imagenProducto)
+            VALUES(:idNegocio,:idTipoProducto,:nombreProducto,:imagenProducto);';
             $stmt = $this->conn->prepare($query);
     
-            $this->idTienda = htmlspecialchars(strip_tags($this->idTienda));
+            $this->idNegocio = htmlspecialchars(strip_tags($this->idNegocio));
             $this->idTipoProducto = htmlspecialchars(strip_tags($this->idTipoProducto));
-            $this->tipoUnidad = htmlspecialchars(strip_tags($this->tipoUnidad));
             $this->nombreProducto = htmlspecialchars(strip_tags($this->nombreProducto));
-            $this->detalleProducto = htmlspecialchars(strip_tags($this->detalleProducto));
-            $this->precioPorUnidad = htmlspecialchars(strip_tags($this->precioPorUnidad));
-            $this->unidadCantidad = htmlspecialchars(strip_tags($this->unidadCantidad));
-            $this->descuentoUnidad = htmlspecialchars(strip_tags($this->descuentoUnidad));
             $this->imagenProducto = htmlspecialchars(strip_tags($this->imagenProducto));
 
-            $stmt->bindParam(':idTienda', $this->idTienda);
+            $stmt->bindParam(':idNegocio', $this->idNegocio);
             $stmt->bindParam(':idTipoProducto', $this->idTipoProducto);
-            $stmt->bindParam(':tipoUnidad', $this->tipoUnidad);
             $stmt->bindParam(':nombreProducto', $this->nombreProducto);
-            $stmt->bindParam(':detalleProducto', $this->detalleProducto);
-            $stmt->bindParam(':precioPorUnidad', $this->precioPorUnidad);
-            $stmt->bindParam(':unidadCantidad', $this->unidadCantidad);
-            $stmt->bindParam(':descuentoUnidad', $this->descuentoUnidad);
             $stmt->bindParam(':imagenProducto', $this->imagenProducto);
 
             // Execute Query
@@ -43,28 +33,17 @@
 
         // EDITAR PRODUCTO
         public function editarProducto(){
-            $query = 'UPDATE producto SET idTipoProducto=:idTipoProducto,tipoUnidad=:tipoUnidad,nombreProducto=:nombreProducto,
-            detalleProducto=:detalleProducto,precioPorUnidad=:precioPorUnidad,unidadCantidad=:unidadCantidad,
-            descuentoUnidad=:descuentoUnidad,imagenProducto=:imagenProducto WHERE idProducto=:idProducto';
+            $query = 'UPDATE producto SET idTipoProducto=:idTipoProducto,nombreProducto=:nombreProducto,
+            imagenProducto=:imagenProducto WHERE idProducto=:idProducto';
             $stmt = $this->conn->prepare($query);
     
             $this->idTipoProducto = htmlspecialchars(strip_tags($this->idTipoProducto));
-            $this->tipoUnidad = htmlspecialchars(strip_tags($this->tipoUnidad));
             $this->nombreProducto = htmlspecialchars(strip_tags($this->nombreProducto));
-            $this->detalleProducto = htmlspecialchars(strip_tags($this->detalleProducto));
-            $this->precioPorUnidad = htmlspecialchars(strip_tags($this->precioPorUnidad));
-            $this->unidadCantidad = htmlspecialchars(strip_tags($this->unidadCantidad));
-            $this->descuentoUnidad = htmlspecialchars(strip_tags($this->descuentoUnidad));
             $this->imagenProducto = htmlspecialchars(strip_tags($this->imagenProducto));
             $this->idProducto = htmlspecialchars(strip_tags($this->idProducto));
 
             $stmt->bindParam(':idTipoProducto', $this->idTipoProducto);
-            $stmt->bindParam(':tipoUnidad', $this->tipoUnidad);
             $stmt->bindParam(':nombreProducto', $this->nombreProducto);
-            $stmt->bindParam(':detalleProducto', $this->detalleProducto);
-            $stmt->bindParam(':precioPorUnidad', $this->precioPorUnidad);
-            $stmt->bindParam(':unidadCantidad', $this->unidadCantidad);
-            $stmt->bindParam(':descuentoUnidad', $this->descuentoUnidad);
             $stmt->bindParam(':imagenProducto', $this->imagenProducto);
             $stmt->bindParam(':idProducto', $this->idProducto);
 
@@ -75,17 +54,21 @@
 
         // BUSCAR PRODUCTO
         public function buscarProducto(){
-            $query = 'CALL buscarProducto(:ciudad,:tipo,:texto,:id,:inicio,:cantidad)';
+            $query = 'CALL buscarProducto(:idDepartamento,:idProvincia,:idDistrito,:tipo,:texto,:id,:inicio,:cantidad)';
             $stmt = $this->conn->prepare($query);
             
-            $this->ciudad = htmlspecialchars(strip_tags($this->ciudad));
+            $this->idDepartamento = htmlspecialchars(strip_tags($this->idDepartamento));
+            $this->idProvincia = htmlspecialchars(strip_tags($this->idProvincia));
+            $this->idDistrito = htmlspecialchars(strip_tags($this->idDistrito));
             $this->tipo = htmlspecialchars(strip_tags($this->tipo));
             $this->texto = htmlspecialchars(strip_tags($this->texto));
             $this->id = htmlspecialchars(strip_tags($this->id));
             $this->inicio = htmlspecialchars(strip_tags($this->inicio));
             $this->cantidad = htmlspecialchars(strip_tags($this->cantidad));
             
-            $stmt->bindParam(':ciudad', $this->ciudad);
+            $stmt->bindParam(':idDepartamento', $this->idDepartamento);
+            $stmt->bindParam(':idProvincia', $this->idProvincia);
+            $stmt->bindParam(':idDistrito', $this->idDistrito);
             $stmt->bindParam(':tipo', $this->tipo);
             $stmt->bindParam(':texto', $this->texto);
             $stmt->bindParam(':id', $this->id);
@@ -97,24 +80,56 @@
             return $stmt;
         }
 
-        // LISTAR PRODUCTO TIENDA
-        public function listarProductosTienda(){
-            $queryCantidad = 'SELECT COUNT(*) AS cantidadProductos FROM producto WHERE idTienda = :codigoUsuario;';
+        // LISTAR PRODUCTOS POR NEGOCIO 
+        public function listarProductosNegocio(){
+            $queryCantidad = 'SELECT COUNT(*) AS cantidadProductos FROM producto WHERE idNegocio = :idNegocio;';
             $stmtCantidad = $this->conn->prepare($queryCantidad);
 
-            $this->codigoUsuario = htmlspecialchars(strip_tags($this->codigoUsuario));
-            $stmtCantidad->bindParam(':codigoUsuario', $this->codigoUsuario);
+            $this->idNegocio = htmlspecialchars(strip_tags($this->idNegocio));
+            $stmtCantidad->bindParam(':idNegocio', $this->idNegocio);
 
             $stmtCantidad->execute();
             if($stmtCantidad){
-                $queryBusqueda = 'CALL paginadoProductoTienda(:codigoUsuario,:inicio,:cantidad)';
+                $queryBusqueda = 'CALL paginadoProductoNegocio(:idNegocio,:inicio,:cantidad)';
                 $stmtBusqueda = $this->conn->prepare($queryBusqueda);
                 
-                $this->codigoUsuario = htmlspecialchars(strip_tags($this->codigoUsuario));
+                $this->idNegocio = htmlspecialchars(strip_tags($this->idNegocio));
                 $this->inicio = htmlspecialchars(strip_tags($this->inicio));
                 $this->cantidad = htmlspecialchars(strip_tags($this->cantidad));
         
-                $stmtBusqueda->bindParam(':codigoUsuario', $this->codigoUsuario);
+                $stmtBusqueda->bindParam(':idNegocio', $this->idNegocio);
+                $stmtBusqueda->bindParam(':inicio', $this->inicio);
+                $stmtBusqueda->bindParam(':cantidad', $this->cantidad);
+
+                $stmtBusqueda->execute();
+
+                $respuesta = array();
+                array_push($respuesta,$stmtCantidad);
+                array_push($respuesta,$stmtBusqueda);
+                
+                return $respuesta;
+
+            } else { return null; }
+        }
+
+        // LISTAR PRODUCTO TIENDA
+        public function listarProductosTienda(){
+            $queryCantidad = 'SELECT COUNT(*) AS cantidadProductos FROM productoTienda WHERE idTienda = :idTienda;';
+            $stmtCantidad = $this->conn->prepare($queryCantidad);
+
+            $this->idTienda = htmlspecialchars(strip_tags($this->idTienda));
+            $stmtCantidad->bindParam(':idTienda', $this->idTienda);
+
+            $stmtCantidad->execute();
+            if($stmtCantidad){
+                $queryBusqueda = 'CALL paginadoProductoTienda(:idTienda,:inicio,:cantidad)';
+                $stmtBusqueda = $this->conn->prepare($queryBusqueda);
+                
+                $this->idTienda = htmlspecialchars(strip_tags($this->idTienda));
+                $this->inicio = htmlspecialchars(strip_tags($this->inicio));
+                $this->cantidad = htmlspecialchars(strip_tags($this->cantidad));
+        
+                $stmtBusqueda->bindParam(':idTienda', $this->idTienda);
                 $stmtBusqueda->bindParam(':inicio', $this->inicio);
                 $stmtBusqueda->bindParam(':cantidad', $this->cantidad);
 

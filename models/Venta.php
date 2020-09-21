@@ -11,12 +11,14 @@
         
         // Agregar Venta
         public function agregarVenta() {
-            $query = 'INSERT INTO venta(idTienda,idPedido) VALUES (:idTienda,:idPedido);';
+            $query = 'INSERT INTO venta(idTienda,idPedido,estadoPago) VALUES (:idTienda,:idPedido,:estadoPago);';
             $stmt = $this->conn->prepare($query);
             $this->idTienda = htmlspecialchars(strip_tags($this->idTienda));
             $this->idPedido = htmlspecialchars(strip_tags($this->idPedido));
+            $this->estadoPago = htmlspecialchars(strip_tags($this->estadoPago));
             $stmt->bindParam(':idTienda', $this->idTienda);
             $stmt->bindParam(':idPedido', $this->idPedido);
+            $stmt->bindParam(':estadoPago', $this->estadoPago);
             $stmt->execute();
             return $stmt;
         }

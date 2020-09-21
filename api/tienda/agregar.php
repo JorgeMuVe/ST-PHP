@@ -20,14 +20,17 @@
 
   $tienda->idNegocio = ""+$data->idNegocio;
   $tienda->idTipoNegocio = ""+$data->idTipoNegocio;
-  $tienda->numeroTienda = $data->numeroTienda;
   $tienda->nombreTienda = $data->nombreTienda;
   $tienda->ruc = $data->ruc;
   $tienda->logo = $data->logo;
+  $tienda->portada = $data->portada;
   $tienda->correoTienda = $data->correoTienda;
   $tienda->telefonoTienda = $data->telefonoTienda;
-  $tienda->direccionTienda = $data->direccionTienda;
   $tienda->descripcionTienda = $data->descripcionTienda;
+  $tienda->direccionTienda = $data->direccionTienda;
+  $tienda->idDepartamento = ""+$data->idDepartamento;
+  $tienda->idProvincia = ""+$data->idProvincia;
+  $tienda->idDistrito = ""+$data->idDistrito;
   $tienda->lat = ""+$data->lat;
   $tienda->lng = ""+$data->lng;
   $tienda->contrasena = $data->contrasena;
